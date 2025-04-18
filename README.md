@@ -10,4 +10,3 @@ Build a complex webapp inspired by sites Dev.to and Medium, featuring...
 - 🔥 Cloud Firestore CRUD and data modeling
 - ⚛️ Reactive forms with react-hook-form
 - 📂 Image file uploads
-- 🚀 Security & Deployment
