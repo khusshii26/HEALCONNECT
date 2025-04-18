@@ -27,7 +27,7 @@ export default function Dashboard(props) {
           <div className="bg-white dark:bg-gray-800 shadow-lg rounded-md flex items-center justify-between p-3 border-b-4 border-blue-500 dark:border-gray-600 text-gray-700 dark:text-gray-200 font-medium group">
                 <FaBell className='stroke-current text-blue-500 dark:text-gray-100' size={36} />
             <div className="text-right">
-              <p className="text-2xl">00</p>
+              <p className="text-2xl">03</p>
               <p>Appointments</p>
             </div>
           </div>
