@@ -19,7 +19,7 @@ export default function Navbar(props) {
     <nav className="flex top-0 left-0 w-full md:px-24 px-4 py-2 justify-between items-center shadow-lg bg-gray-200 dark:bg-gray-800">
          <div className='flex flex-row items-center w-8 md:w-12 h-6 md:h-9 mr-3'>
         <Link href="./" className="flex items-center">
-          <img src={'https://firebasestorage.googleapis.com/v0/b/health-monitoring-system-7885c.appspot.com/o/Images%2FLogo.svg?alt=media&token=cf99c988-5408-49a1-b371-60263e65bd30' || '/Logo.svg'} alt={'Logo'}/>
+          <img src={'/Logo1.png'} alt={'Logo1'}/>
         </Link>
         </div>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
