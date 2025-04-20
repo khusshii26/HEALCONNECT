@@ -19,7 +19,7 @@ export default function Navbar(props) {
     <nav className="flex top-0 left-0 w-full md:px-24 px-4 py-2 justify-between items-center shadow-lg bg-gray-200 dark:bg-gray-800 height:300px width:300px">
          <div className='flex flex-row items-center w-8 md:w-12 h-6 md:h-9 mr-3'>
         <Link href="./" className="flex items-center">
-          <img src={'/Logo2.jpg'} alt={'Logo2'}/>
+          <img src={'/Logo1.png'} alt={'Logo2'}/>
         </Link>
         </div>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
