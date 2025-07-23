@@ -1,20 +1,53 @@
-##  Health Monitoring System
+# HEALCONNECT [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://Dipanita45.github.io/HEALCONNECT)
 
-- [Live Demo]
+---
 
+## 🩺 About
 
-https://github.com/user-attachments/assets/c6e0a18b-3982-43b3-8445-d509bea34bac
+**HEALCONNECT** is a smart health monitoring system designed to help hospitals manage patient health parameters remotely.  
+Our goal is to enable doctors to access patient data anytime, anywhere — enabling faster and better treatment decisions.
 
+---
 
+## 🚀 Features
 
+- 🔐 Secure Firebase Authentication  
+- 🗄️ Cloud Firestore for real-time data storage  
+- 🧑‍⚕️ Patient health parameter tracking and monitoring  
+- 📅 Appointment booking system  
+- 📸 Image uploads for health records  
+- 🛠️ Reactive forms using `react-hook-form`  
 
+---
 
+## 🛠 Tech Stack
 
-Health monitoring system is pune’s growing health monitoring site to let the hospital manage their patient's health paramaters anywhere, anytime. Our aim is to make patient’s health parameter accessible to doctors all over the world for the quick treatment. Our product is designed with latest tech in market to enhance the performance ahead and make organizations become advance at treatment in no time. 
+- **Frontend**: React.js with Vite  
+- **Backend Services**: Firebase Authentication & Firestore  
+- **Forms**: React Hook Form  
+- **Styling**: CSS / SCSS  
 
-Build a complex webapp inspired by sites Dev.to and Medium, featuring...
+---
 
-- 👨‍🎤 Strong Firebase Authentication
-- 🔥 Cloud Firestore CRUD and data modeling
-- ⚛️ Reactive forms with react-hook-form
-- 📂 Image file uploads
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+
+- Node.js (version 14 or higher)
+- Firebase project (setup on [Firebase Console](https://console.firebase.google.com))
+
+---
+
+### 🔧 Installation Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/Dipanita45/HEALCONNECT
+# Navigate to project directory
+cd HEALCONNECT
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
