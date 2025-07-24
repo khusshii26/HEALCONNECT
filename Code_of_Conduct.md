@@ -9,23 +9,23 @@ At HealConnect, we are committed to fostering a welcoming, respectful, and inclu
 🤝 Community Values:
 
 We believe in building a community that thrives on:
-💙 Compassion & Respect – Treat every member with kindness and empathy.
-🌍 Diversity & Inclusion – Embrace differences in backgrounds, experiences, and perspectives.
-📢 Open Communication – Encourage questions, discussions, and feedback with clarity and patience.
-🤝 Collaboration Over Competition – Work together to improve healthcare accessibility.
-📚 Continuous Learning – Support beginners and experts alike in their journey.
-🔒 Privacy & Trust – Respect confidentiality and ethical guidelines in healthcare discussions.
+- 💙 Compassion & Respect – Treat every member with kindness and empathy.
+- 🌍 Diversity & Inclusion – Embrace differences in backgrounds, experiences, and perspectives.
+- 📢 Open Communication – Encourage questions, discussions, and feedback with clarity and patience.
+- 🤝 Collaboration Over Competition – Work together to improve healthcare accessibility.
+- 📚 Continuous Learning – Support beginners and experts alike in their journey.
+- 🔒 Privacy & Trust – Respect confidentiality and ethical guidelines in healthcare discussions.
 
 ---
 
 🚫 Not Tolerated
 
 To maintain a safe and productive environment, we do not allow:
-❌ Harassment, bullying, or discrimination (based on gender, race, religion, disability, etc.)
-❌ Unsolicited medical advice or misinformation
-❌ Spam, self-promotion, or off-topic content
-❌ Violation of patient privacy (HIPAA/GDPR compliance is a must)
-❌ Aggressive, dismissive, or unprofessional behavior
+- ❌ Harassment, bullying, or discrimination (based on gender, race, religion, disability, etc.)
+- ❌ Unsolicited medical advice or misinformation
+- ❌ Spam, self-promotion, or off-topic content
+- ❌ Violation of patient privacy (HIPAA/GDPR compliance is a must)
+- ❌ Aggressive, dismissive, or unprofessional behavior
 
 ---
 
@@ -51,21 +51,21 @@ If you experience or witness any violations, please report immediately to:
 ⚖️ Possible Actions
 
 Depending on the severity, violations may result in:
-🟡 Friendly reminder & education on guidelines
-🟠 Formal warning & temporary restrictions
-🔴 Account suspension or ban from the community
-⚫ Legal action (in cases of privacy breaches or harassment)
+- 🟡 Friendly reminder & education on guidelines
+- 🟠 Formal warning & temporary restrictions
+- 🔴 Account suspension or ban from the community
+- ⚫ Legal action (in cases of privacy breaches or harassment)
 
 ---
 
 🎯 Contributor Expectations:
 
 As a HealConnect contributor, you agree to:
-✔️ Respect patient privacy & ethical guidelines
-✔️ Provide accurate, evidence-based information
-✔️ Give & receive feedback constructively
-✔️ Credit sources and collaborators properly
-✔️ Uphold professionalism in all interactions
+- ✔️ Respect patient privacy & ethical guidelines
+- ✔️ Provide accurate, evidence-based information
+- ✔️ Give & receive feedback constructively
+- ✔️ Credit sources and collaborators properly
+- ✔️ Uphold professionalism in all interactions
 
 ---
 
