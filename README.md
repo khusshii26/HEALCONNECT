@@ -57,3 +57,11 @@ npm run dev
     ⬆️ Back to Top
   </a>
 </p>
+```
+---
+
+### 🤝 Contributing
+
+We welcome contributions from everyone! Please read our [Contributing Guidelines](contributing.md) to get started.
+
+---
