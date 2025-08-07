@@ -64,7 +64,7 @@ export default function Contact() {
               </h2>
               <p className="text-lg leading-relaxed mb-2">Email: <a href="mailto:support@healconnect.com" className="text-blue-600">support@healconnect.com</a></p>
               <p className="text-lg leading-relaxed mb-2">Phone: <a href="tel:+911234567890" className="text-blue-600">+91 12345 67890</a></p>
-              <p className="text-lg leading-relaxed mb-2">GitHub: <a href="https://github.com/Ashish001sing/HEALCONNECT" target="_blank" rel="noopener noreferrer" className="text-blue-600">HEALCONNECT</a></p>
+              /<p className="text-lg leading-relaxed mb-2">GitHub: <a href="https://github.com/Ashish001sing/HEALCONNECT" target="_blank" rel="noopener noreferrer" className="text-blue-600">HEALCONNECT</a></p>
             </motion.section>
 
             <motion.section
@@ -126,7 +126,7 @@ export default function Contact() {
               <ul className="list-disc pl-6 text-lg">
                 <li>Visit our <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-600">GitHub repository</a></li>
                 <li>Read the <a href="/contributing.md" target="_blank" className="text-blue-600">contribution guidelines</a></li>
-                <li>Open issues or pull requests for improvements</li>
+                
                 <li>Join discussions and help others</li>
               </ul>
             </motion.section>
