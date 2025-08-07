@@ -124,8 +124,6 @@ export default function Contact() {
                 How to Contribute
               </h2>
               <ul className="list-disc pl-6 text-lg">
-                <li>Visit our <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-blue-600">GitHub repository</a></li>
-                <li>Read the <a href="/contributing.md" target="_blank" className="text-blue-600">contribution guidelines</a></li>
                 
                 <li>Join discussions and help others</li>
               </ul>
