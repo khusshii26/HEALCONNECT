@@ -32,7 +32,6 @@ Our goal is to enable doctors to access patient data anytime, anywhere — enabl
 
 ```
 HEALCONNECT/
-
 ├── .github/
 │   └── workflows/
 │       └── deploy-react.yml
