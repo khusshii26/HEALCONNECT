@@ -134,18 +134,16 @@ HEALCONNECT/
 
 ### 🔧 Installation Steps
 
-```bash
-# Clone the repository
-git clone https://github.com/Dipanita45/HEALCONNECT
-# Navigate to project directory
-cd HEALCONNECT
+- Clone the repository
+``` git clone https://github.com/Dipanita45/HEALCONNECT```
+- Navigate to project directory
+``` cd HEALCONNECT ```
 
-# Install dependencies
-npm install
+- Install dependencies
+``` npm install ```
 
-# Start the development server
-npm run dev
-
+- Start the development server
+``` npm run dev ``` 
 
 ---
 
