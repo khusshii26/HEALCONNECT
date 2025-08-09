@@ -1,10 +1,7 @@
 import React, { useContext, useState } from 'react'
-import { storage, STATE_CHANGED, db, auth } from '@lib/firebase';
 import { UserContext } from '@lib/context';
-import { doc, updateDoc } from "firebase/firestore";
 import toast from "react-hot-toast";
 import { FaSpinner } from 'react-icons/fa';
-import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
