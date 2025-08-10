@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { useEffect } from "react";
 import Footer from "./footer";
+import Faq from "../components/Faq";
 import Image from 'next/image';
+
 
 
 export default function Home() {
@@ -205,6 +207,8 @@ export default function Home() {
             </a>
           </section>
         </div>
+
+        <Faq />
 
         {/* Footer Section */}
         <Footer />
