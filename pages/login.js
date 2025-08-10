@@ -1,4 +1,5 @@
-import React, { useContext, useEffect} from 'react'
+// pages/login.js
+import React, { useContext, useEffect } from 'react';
 import { UserContext } from '@lib/context';
 import { useRouter } from 'next/router';
 import SignIn from '@components/Auth/SignIn';
@@ -6,15 +7,14 @@ import SignIn from '@components/Auth/SignIn';
 export default function Login(props) {
   const { user } = useContext(UserContext);
   const router = useRouter();
+
   useEffect(() => {
-    if (!user){
-      router.push('/login')
-    }else{
-      router.push('/profile')
+    if (user) {
+      router.push('/profile');
     }
-  }, [user])
+  }, [user]);
 
   return (
-     <SignIn />
+    <SignIn />
   );
 }

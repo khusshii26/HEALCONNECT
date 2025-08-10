@@ -15,6 +15,7 @@ export default function Navbar() {
       <Link href="/monitoring" style={{ marginRight: 20, color: isActive('/monitoring') ? '#ffd700' : 'white' }}>Monitoring</Link>
       <Link href="/contact" style={{ marginRight: 20, color: isActive('/contact') ? '#ffd700' : 'white' }}>Contact</Link>
       <Link href="/login" style={{ marginLeft: 'auto', color: isActive('/login') ? '#ffd700' : 'white' }}>Login</Link>
+      <Link href="/register" style={{ marginLeft: 20, color: isActive('/register') ? '#ffd700' : 'white' }}>Register</Link>
     </nav>
   );
 }
