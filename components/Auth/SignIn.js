@@ -1,60 +1,79 @@
-import { useState, useEffect } from "react";
-import { auth, RecaptchaVerifier, signInWithPhoneNumber } from "@/lib/firebase";
+
+import { useState, useEffect } from 'react';
 
 export default function SignIn() {
-  const [phone, setPhone] = useState("");
-  const [otp, setOtp] = useState("");
+  const [phone, setPhone] = useState('');
+  const [otp, setOtp] = useState('');
   const [confirmation, setConfirmation] = useState(null);
 
-  // Initialize reCAPTCHA once on mount (client-side only)
+  // Initialize recaptcha once on mount
   useEffect(() => {
-    if (typeof window !== "undefined" && !window.recaptchaVerifier) {
+    if (!window.recaptchaVerifier) {
       window.recaptchaVerifier = new RecaptchaVerifier(
-        auth,
-        "recaptcha-container",
+        'recaptcha-container',
         {
-          size: "invisible",
+          size: 'invisible',
           callback: (response) => {
-            console.log("reCAPTCHA solved", response);
+            console.log('reCAPTCHA solved');
           },
-        }
+          'expired-callback': () => {
+            window.recaptchaVerifier.reset();
+          },
+        },
+        auth
       );
     }
   }, []);
 
   const sendOTP = async () => {
+    // Validate Indian 10-digit phone number starting with 6-9
     if (!phone.match(/^[6-9]\d{9}$/)) {
-      alert("Please enter a valid 10-digit Indian phone number without +91");
+      alert('Please enter a valid 10-digit Indian phone number without +91');
       return;
     }
 
     try {
-      const appVerifier = window.recaptchaVerifier;
-      const formattedPhone = "+91" + phone;
+      // Clear existing reCAPTCHA instance before creating a new one
+      if (window.recaptchaVerifier) {
+        window.recaptchaVerifier.clear();
+      }
 
-      const confirmationResult = await signInWithPhoneNumber(
-        auth,
-        formattedPhone,
-        appVerifier
+      window.recaptchaVerifier = new RecaptchaVerifier(
+        'recaptcha-container',
+        {
+          size: 'invisible',
+          callback: () => {
+            console.log('reCAPTCHA solved');
+          },
+          'expired-callback': () => {
+            window.recaptchaVerifier.reset();
+          },
+        },
+        auth
       );
+
+      const appVerifier = window.recaptchaVerifier;
+      const formattedPhone = '+91' + phone;
+
+      const confirmationResult = await signInWithPhoneNumber(auth, formattedPhone, appVerifier);
       setConfirmation(confirmationResult);
-      alert("OTP sent!");
+      alert('OTP sent!');
     } catch (error) {
-      alert("Error sending OTP: " + error.message);
+      alert('Error sending OTP: ' + error.message);
     }
   };
 
   const verifyOTP = async () => {
     if (!otp) {
-      alert("Please enter the OTP");
+      alert('Please enter the OTP');
       return;
     }
     try {
       await confirmation.confirm(otp);
-      alert("Login successful!");
-      // Redirect logic here
+      alert('Login successful!');
+      // TODO: redirect user based on your app logic
     } catch (error) {
-      alert("Incorrect OTP: " + error.message);
+      alert('Incorrect OTP: ' + error.message);
     }
   };
 
@@ -96,8 +115,9 @@ export default function SignIn() {
         </>
       )}
 
-      {/* reCAPTCHA container */}
+      {/* Invisible reCAPTCHA container */}
       <div id="recaptcha-container"></div>
     </div>
   );
 }
+
