@@ -1,10 +1,12 @@
 name: Next.js CI/CD
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
-  pull_request:
 
 permissions:
   contents: read
